@@ -1,0 +1,3 @@
+# Unexpected Behavior with Negative Loop Counter in TypeScript
+
+This example demonstrates an unexpected behavior in TypeScript when using a negative number as the loop counter in a `for` loop. The function `printNumbers` is supposed to print numbers from 1 to `n`. When `n` is negative, the loop unexpectedly does not execute. This is because the condition `i <= n` will always be false when `i` starts at 1 and `n` is negative.  The solution will modify the function to handle negative input appropriately.
